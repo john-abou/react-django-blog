@@ -4,7 +4,9 @@ import Home from './pages/home'
 
 function App() {
   return (
-    <Home />
+    <div>
+      <Home />
+    </div>
   )
 }
 
