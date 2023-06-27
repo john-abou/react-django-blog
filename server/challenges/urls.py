@@ -13,6 +13,6 @@ urlpatterns = [
     path('hello_world', views.hello_world),
     path('test', views.test),
     path('<int:month>', views.monthly_challenge_by_number), # Dynamic path segment is an integer
-    path('<str:month>', views.monthly_challenge, name='month-challenge'), # Dynamic path segment is a string 
+    path('<str:month>', views.monthly_challenge_template, name='month-challenge'), # Dynamic path segment is a string 
 ]
 
