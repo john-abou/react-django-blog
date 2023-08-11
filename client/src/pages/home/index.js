@@ -7,6 +7,7 @@ export default function Home() {
     <div className="home">
       <h1>Home</h1>
       {/* <Link to="/login">Login</Link> */}
+      {/* Link to the map component */}
     </div>
   );
 }
